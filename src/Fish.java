@@ -12,7 +12,7 @@ public class Fish {
 
 
     public void show() {
-        System.out.printf("Fish #%d | Species %s", id, species.name);
+        System.out.printf("Fish #%d | %s\n", id, species.name);
     }
 
 
