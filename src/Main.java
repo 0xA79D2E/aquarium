@@ -1,5 +1,13 @@
+import java.util.Scanner;
+
 public class Main {
+
+    public Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
+
+
+        int money = 100;
 
         Aquarium aquarium = new Aquarium();
         Species goldfish = new Species("Goldfish");
@@ -12,6 +20,9 @@ public class Main {
         System.out.println("\nAll Fish in Aquarium:");
         aquarium.showAllFish();
 
+        while(true) {
+            System.out.println(Shop.menu);
+        }
 
     }
 }
